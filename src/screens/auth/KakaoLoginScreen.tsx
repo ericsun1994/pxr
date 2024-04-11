@@ -24,7 +24,7 @@ function KakaoLoginScreen() {
       url: 'https://kauth.kakao.com/oauth/token',
       params: {
         grant_type: 'authorization_code',
-        cliden_id: Config.KAKAO_REST_API_KEY,
+        client_id: Config.KAKAO_REST_API_KEY,
         redirect_uri: REDIRECT_URI,
         code,
       },
